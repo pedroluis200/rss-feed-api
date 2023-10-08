@@ -1,0 +1,32 @@
+# Archivos y directorios generados por Django
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Archivos generados por IDEs
+.idea/
+.vscode/
+
+# Archivos generados durante la ejecución
+*.log
+*.pot
+*.pyc
+*.swp
+*.sql
+db.sqlite3
+
+# Directorio de entorno virtual (si estás usando virtualenv o venv)
+env/
+venv/
+*.env
+
+# Dependencias de Python
+*.pip
+*.lock
+*.requirements
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
