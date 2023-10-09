@@ -17,11 +17,11 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
-from rss_api.views import RSSFeedListCreateView
+from rss_api.views import AddRSSFeedView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('rss_api.urls')),
-    path('', RSSFeedListCreateView.as_view(), name='home'),  # Vista para la ruta raíz
+    path('', AddRSSFeedView.as_view(), name='home'),  # Vista para la ruta raíz
 ]
 
